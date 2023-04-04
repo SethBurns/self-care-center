@@ -14,6 +14,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 - Write HTML and CSS to match a provided comp
 - Understand how to listen to and respond to user events
 - Individualize your programming skill set
+- ### User Never Sees a Repeated Message
 
 ## Setup
 
