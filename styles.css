@@ -6,3 +6,76 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf)
+}
+
+header {
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.messageChoice {
+    display: flex;
+    justify-content: space-evenly;
+    font-style: italic;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.quotebox {
+    display: flex;
+    justify-content: space-evenly;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 75%;
+    height: 150px;
+    border-radius: 10px;
+}
+.svg {
+    margin: auto; 
+    height: 50%;
+    width: 25%;
+}
+
+.buttonArea {
+    text-align: center;
+}
+
+button {
+    background-color: #134d71;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
