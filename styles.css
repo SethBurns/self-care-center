@@ -29,6 +29,7 @@ form {
     border-radius: 10px;
     width: 50%;
     margin: auto;
+    padding-top: 5px;
 }
 
 .messageChoice {
@@ -48,6 +49,8 @@ h1 {
 
 .quotebox {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: space-evenly;
     background: #ffffff;
     margin-left: auto;
@@ -56,6 +59,9 @@ h1 {
     width: 75%;
     height: 150px;
     border-radius: 10px;
+    color: #000000;
+    font-size: x-large;
+    
 }
 .svg {
     margin: auto; 
@@ -74,6 +80,10 @@ button {
     font-weight: lighter;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.choices {
+    margin-top: 10px;
 }
 
 .hidden {
